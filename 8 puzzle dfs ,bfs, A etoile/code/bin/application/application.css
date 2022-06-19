@@ -1,0 +1,73 @@
+.buttons{
+	-fx-background-color: linear-gradient(#360033, #0b8793);
+	-fx-alignment: center;
+	-fx-text-fill: white;
+	-fx-font : 16 arial;
+
+}
+.buttons2{
+	-fx-background-color: white;
+	-fx-alignment: center;
+	-fx-text-fill: black;
+	-fx-font : 16 arial;
+	-fx-border-color:linear-gradient(#360033, #0b8793);
+	-fx-border-radius: 10px;
+
+}
+.choice-box:focused .label {
+	-fx-text-fill: black;
+}
+.choice-box {
+     -fx-background-color: white;
+	-fx-alignment: center;
+	-fx-font : 16 arial;
+}
+.Menu{
+	-fx-background-color: linear-gradient(#360033, #0b8793);
+}
+.MenuItems
+{
+	-fx-text-fill: white;
+	-fx-font : 40 arial;
+    -fx-alignment: center;
+}
+.Path
+{
+	-fx-text-fill: black;
+	-fx-font : 25 arial;
+    -fx-alignment: center;
+}
+.root{
+	-fx-background-color: white;
+}
+.text_Box
+{
+	-fx-font : 40 arial;
+    -fx-alignment: center;
+}
+.buttons{
+	-fx-background-color: #0b8793;
+	-fx-background-radius : 30 30 30 30;
+	-fx-text-fill: white;
+
+}
+.buttons:hover{
+	-fx-background-color: #096973;
+	-fx-background-radius : 30 30 30 30;
+
+}
+.buttons:pressed{
+	-fx-background-color:  #096973;
+	-fx-background-radius : 30 30 30 30;
+
+}
+.text-area {
+    -fx-font-family: Consolas;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+    -fx-display-caret:true;
+}
+
+.text-area .content {
+    -fx-background-color: linear-gradient(#0b8793,#360033);
+}
